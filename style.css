@@ -11,7 +11,8 @@ body {
 
 .intro {
   color: #315EBD;
-  margin-top: 15%;
+  margin-top: 10%;
+  margin-left: 23%;
   font-size: 100px;
   text-align: center;
 }
@@ -199,6 +200,7 @@ p:last-child:after {
 .contact input, .contact textarea {
   display: flex;
   background-color: #a39f9f;
+  margin-bottom: 40%;
   border: 2px solid rgb(187, 70, 70);
   padding: 8px 20px;
   margin: auto;
@@ -215,6 +217,7 @@ p:last-child:after {
 }
 
 .container_b {
+  margin-top: -12%;
   padding: 40px 40px;
   color: rgb(187, 70, 70);
   text-align: center;
