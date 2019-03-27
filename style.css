@@ -219,6 +219,7 @@ p:last-child:after {
   text-align: center;
   width: 20%;
   min-width: 50%;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .contact {
