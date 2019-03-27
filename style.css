@@ -192,12 +192,15 @@ p:last-child:after {
   word-spacing: 60px;
   color: rgb(187, 70, 70);
   background: #666363;
-  padding-bottom: 2px;
+  padding-bottom: 50px;
 }
 
 
 .contact input, .contact textarea {
   display: flex;
+  background-color: #a39f9f;
+  border: 2px solid rgb(187, 70, 70);
+  padding: 8px 20px;
   margin: auto;
   text-align: center;
   width: 20%;
@@ -206,10 +209,13 @@ p:last-child:after {
 }
 
 .contact {
+  padding: 5px;
+  margin: 10px;
   text-align: center;
 }
 
 .container_b {
+  padding: 40px 40px;
   color: rgb(187, 70, 70);
   text-align: center;
 }
