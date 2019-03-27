@@ -190,10 +190,11 @@ p:last-child:after {
 
 .skills {
   text-align: center;
+  margin-top: 6%;
   word-spacing: 60px;
   color: rgb(187, 70, 70);
   background: #666363;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 
 
