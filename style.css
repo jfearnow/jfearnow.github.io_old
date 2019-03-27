@@ -1,0 +1,238 @@
+body {
+  background: #333333;
+}
+
+.my_navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 5;
+}
+
+.intro {
+  color: #315EBD;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: rgb(172, 68, 68);
+}
+
+.icon-resize i {
+  font-size: 5rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p { text-decoration: underline; }
+
+.under {
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+  color:  rgb(153, 9, 9);
+  text-align: center;
+  font-size: 3.5em; 
+  padding: 28%;
+}
+
+#portfolio {
+  text-align: center;
+  background-color: #333333;
+  color: rgb(187, 70, 70);
+  margin-top: 20%;
+  margin-bottom: 1.5%;
+  padding: 20px 0; }
+
+  #portfolio .portfolio-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 260px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    margin-bottom: 54px; }
+  
+#portfolio .portfolio-item .details {
+  height: 260px;
+  background: black;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center; }
+  
+#portfolio .portfolio-item .details h4 {
+  font-size: 25px;
+  font-weight: 50;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #16e54e; }
+  
+#portfolio .portfolio-item .details span {
+  display: block;
+  color: #0ea536;
+  font-size: 16px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0); }
+  
+#portfolio .portfolio-item:hover .details {
+  opacity: 0.8; }
+  
+#portfolio .portfolio-item:hover .details h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1; }
+  
+#portfolio .portfolio-item:hover .details span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1; 
+}
+
+ .title {
+  color: rgb(189, 144, 144);
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 65px;
+  left: 16px;
+  color: #060;
+  word-wrap: normal;
+}
+
+.background {
+  background: url("asessts\\building_night.jpeg") no-repeat fixed center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(1px);
+  z-index: -1;
+
+}
+
+.card-deck {
+  background-color: rgb(187, 70, 70);
+  margin-top: -55vh;
+  position: absolute;
+}
+
+.screen {
+  animation:colorPulse 3s infinite ease-in-out;
+  /* background-image:radial-gradient(#444, #111); */
+  box-sizing:border-box;
+  font-family:'Fira Mono', monospace;
+  font-size:20px;
+  height:85vh;
+  overflow:hidden;
+  padding:30vmin;
+  width:100vw;
+  
+}
+
+.screen:before {
+  animation:wave 7s infinite ease-in-out;
+  content:"";
+  height: 60vh;
+  left:0;
+  opacity:.5;
+  right:0;
+  z-index:1;
+}
+
+.screen:after {
+  background-image:linear-gradient(transparent, transparent 3px, #222);
+  background-size:4px 4px;
+  bottom:0;
+  content:"";
+  left:0;
+  pointer-events:none;
+  position:absolute;
+  right:0;
+  top:5;
+  z-index:4;
+}
+
+p:last-child:after {
+  animation:blink 0.5s infinite;
+  content:"_";
+}
+
+@keyframes colorPulse {
+  0%, 100% {
+    color:#0c0;
+  }
+  48%, 52% {
+    color:#090;
+  }
+  50% {
+    color:#060;
+  }
+}
+
+@keyframes wave {
+  0% {
+    box-shadow:0 -10vh 20vh #0c0;
+    top: 148vh;
+  }
+  48%, 52% {
+    box-shadow:0 -10vh 20vh rgb(170, 53, 7);
+  }
+  50% {
+    box-shadow:0 -10vh 20vh #060;
+  }
+  85% {
+    box-shadow:0 -10vh 20vh #0c0;
+    top:223vh;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity:0;
+  }
+}
+
+.skills {
+  text-align: center;
+  color: rgb(187, 70, 70);
+  background: #666363;
+  padding-bottom: 2px;
+}
+
+
+.contact input, .contact textarea {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 20%;
+  min-width: 50%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.container_b {
+  color: rgb(187, 70, 70);
+  text-align: center;
+}
+
+.row {
+  margin: auto;
+  background-color: #666363;
+}
+
+
